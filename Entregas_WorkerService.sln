@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entregas_WorkerService.Service", "Entregas_WorkerService\Entregas_WorkerService.Service.csproj", "{E6F0F540-BF63-4BE0-8BA6-C662E09CECA8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DDD", "DDD", "{3BE78B15-8E47-422F-87BE-2C3D778249EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{43FADD83-4FB6-48AF-A0CE-EA6FA9FBF103}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{ABB8FA5F-9DF0-46FC-BBCF-FB232AE0F5C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{9C132063-608F-4167-8438-2A073D7799F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entregas_WorkerService.Application", "Entregas_WorkerService.Application\Entregas_WorkerService.Application.csproj", "{4FC8F39A-6784-40E1-BF63-B9EB67D0E09C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entregas_WorkerService.Domain", "Entregas_WorkerService.Domain\Entregas_WorkerService.Domain.csproj", "{81E9DC77-9E0D-4A4A-82AC-976211DEFC5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entregas_WorkerService.Infra.Data", "Entregas_WorkerService.Infra.Data\Entregas_WorkerService.Infra.Data.csproj", "{BCF58485-F92B-44B7-A3DF-2C8886B7D529}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6F0F540-BF63-4BE0-8BA6-C662E09CECA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6F0F540-BF63-4BE0-8BA6-C662E09CECA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6F0F540-BF63-4BE0-8BA6-C662E09CECA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6F0F540-BF63-4BE0-8BA6-C662E09CECA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FC8F39A-6784-40E1-BF63-B9EB67D0E09C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FC8F39A-6784-40E1-BF63-B9EB67D0E09C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FC8F39A-6784-40E1-BF63-B9EB67D0E09C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FC8F39A-6784-40E1-BF63-B9EB67D0E09C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81E9DC77-9E0D-4A4A-82AC-976211DEFC5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81E9DC77-9E0D-4A4A-82AC-976211DEFC5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81E9DC77-9E0D-4A4A-82AC-976211DEFC5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81E9DC77-9E0D-4A4A-82AC-976211DEFC5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCF58485-F92B-44B7-A3DF-2C8886B7D529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCF58485-F92B-44B7-A3DF-2C8886B7D529}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCF58485-F92B-44B7-A3DF-2C8886B7D529}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCF58485-F92B-44B7-A3DF-2C8886B7D529}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E6F0F540-BF63-4BE0-8BA6-C662E09CECA8} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{43FADD83-4FB6-48AF-A0CE-EA6FA9FBF103} = {3BE78B15-8E47-422F-87BE-2C3D778249EA}
+		{ABB8FA5F-9DF0-46FC-BBCF-FB232AE0F5C9} = {3BE78B15-8E47-422F-87BE-2C3D778249EA}
+		{9C132063-608F-4167-8438-2A073D7799F6} = {3BE78B15-8E47-422F-87BE-2C3D778249EA}
+		{4FC8F39A-6784-40E1-BF63-B9EB67D0E09C} = {43FADD83-4FB6-48AF-A0CE-EA6FA9FBF103}
+		{81E9DC77-9E0D-4A4A-82AC-976211DEFC5D} = {ABB8FA5F-9DF0-46FC-BBCF-FB232AE0F5C9}
+		{BCF58485-F92B-44B7-A3DF-2C8886B7D529} = {9C132063-608F-4167-8438-2A073D7799F6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70192C13-DA4C-40B3-B749-994873CD160F}
+	EndGlobalSection
+EndGlobal
