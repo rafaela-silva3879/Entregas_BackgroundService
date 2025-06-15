@@ -4,7 +4,7 @@ using RabbitMQ.Client;
 using Subscriber.Settings;
 using Newtonsoft.Json;
 using System.Text;
-using Entregas_WorkerService.Service.Models.Payloads;
+using Entregas_WorkerService.Service.Models.Events;
 using System.Diagnostics;
 using Entregas_WorkerService.Application.Interfaces;
 using Entregas_WorkerService.Application.Commands;
@@ -58,7 +58,7 @@ public class PedidosConsumer : BackgroundService
 
             Debug.WriteLine($"[RabbitMQ] Mensagem recebida: {contentString}");
 
-            var payload = JsonConvert.DeserializeObject<PedidoPayloadModel>(contentString);
+           var payload = JsonConvert.DeserializeObject<PedidoPendenteEvent>(contentString);
 
             if (payload?.DetalhesPedido == null)
             {
@@ -73,6 +73,7 @@ public class PedidosConsumer : BackgroundService
 
             var command = new PedidoSaiuPraEntregaCommand
             {
+                // Aqui, o compilador executa o get da propriedade calculada
                 PedidoId = payload.DetalhesPedido.PedidoId
             };
 
